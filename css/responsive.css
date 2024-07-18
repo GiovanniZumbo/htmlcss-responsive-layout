@@ -37,6 +37,19 @@
         flex-basis: calc(100% / 3 - 40px / 3);
     }
 
+    /* Stretching social buttons */
+
+    .social-banner {
+        justify-content: normal;
+        margin: 30px 15px;
+    }
+
+    .social-btn {
+        width: 100%;
+        text-align: center;
+        margin: 0 10px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -66,6 +79,12 @@
 
     .fa-ul.row {
         display: block;
+    }
+
+    /* Showing social names */
+
+    .social-name {
+        display: inline-block;
     }
 
 }
