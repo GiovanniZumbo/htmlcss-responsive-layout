@@ -106,4 +106,15 @@
         display: inline-block;
     }
 
+    /* Splitting footer */
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-top {
+        text-align: left;
+    }
+
 }
