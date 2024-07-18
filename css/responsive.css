@@ -1,5 +1,28 @@
 @media screen and (min-width: 768px) {
+
+    /* Title alignment */
+
     .page-title {
         text-align: start;
+    }
+
+    /* Show title name details */
+
+    .recipe-name-details {
+        display: inline-block;
+    }
+
+    /* Large recipe title */
+
+    .font-lg {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    /* Larger recipe title */
+    .font-xl {
+        font-size: 28px;
     }
 }

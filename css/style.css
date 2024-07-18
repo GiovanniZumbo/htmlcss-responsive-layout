@@ -1,3 +1,11 @@
+/* Root */
+
+:root {
+    --darkviolet: #4E3969;
+    --violet: #7B69A2;
+    --orange: #FF9614;
+}
+
 /* Css reset */
 
 * {
@@ -13,14 +21,33 @@ body {
     position: relative;
 }
 
+a {
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
 /* Utilities */
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
-/* Header */
+.show {
+    height: 100vh;
+    border-left: 2px dashed green;
+    border-right: 2px dashed green;
+}
+
+/* Text sizes */
+
+.font-md {
+    font-size: 20px;
+}
+
+/***** Header *****/
 
 header {
     height: 80px;
@@ -31,7 +58,7 @@ header {
     padding: 0 20px;
 }
 
-/* Titolo */
+/*** Titolo ***/
 
 .page-title {
     font-family: "Nerko One", cursive;
@@ -39,7 +66,52 @@ header {
     font-style: normal;
     font-size: 50px;
 
-    color: #FF9614;
+    color: var(--orange);
     text-shadow: 1px 1px 0 #aaa;
     text-align: center;
+}
+
+/***** Main *****/
+
+main {
+    background-color: #F6F5F3;
+}
+
+/*** Card intro ***/
+
+/* Card intro Top */
+
+.card-intro-top {
+    padding: 20px 0;
+}
+
+.category {
+    color: #aaa;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.recipe-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-name {
+    font-weight: 800;
+    color: var(--darkviolet);
+}
+
+.recipe-name h3 {
+    display: inline-block;
+}
+
+.recipe-rating a {
+    background-color: var(--orange);
+    color: white;
+    margin: 0 10px;
+}
+
+.recipe-name-details {
+    display: none;
 }
