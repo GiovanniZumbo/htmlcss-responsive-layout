@@ -50,6 +50,12 @@
         margin: 0 10px;
     }
 
+    /* Showing advertisement */
+
+    .adv {
+        display: block;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
