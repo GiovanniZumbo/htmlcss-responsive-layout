@@ -17,6 +17,26 @@
     .font-lg {
         font-size: 24px;
     }
+
+    /* Video becomes bigger */
+
+    iframe {
+        min-height: 420px;
+    }
+
+    /* Info scheme change */
+
+    .fa-ul.row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    li.col-33 {
+        flex-basis: calc(100% / 3 - 40px / 3);
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -25,4 +45,27 @@
     .font-xl {
         font-size: 28px;
     }
+
+    /* Video and info stand aside */
+
+    .card-intro-main {
+        display: flex;
+    }
+
+    .col-30 {
+        flex-basis: 30%;
+    }
+
+    .col-70 {
+        flex-basis: 70%;
+    }
+
+    iframe {
+        min-height: 460px;
+    }
+
+    .fa-ul.row {
+        display: block;
+    }
+
 }

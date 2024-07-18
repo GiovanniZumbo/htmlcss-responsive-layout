@@ -131,9 +131,9 @@ main {
 
 /* Card intro main */
 
-.recipe-video {
-    height: 300px;
-    background-color: var(--violet);
+iframe {
+    height: 340px;
+    width: 100%;
 }
 
 .recipe-info {
