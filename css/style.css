@@ -95,6 +95,7 @@ header {
     top: 0;
     left: 0;
     padding: 0 20px;
+    z-index: 1;
 }
 
 /*** Titolo ***/
@@ -240,7 +241,7 @@ a.social-btn {
 /* Presentation section */
 
 #presentation {
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
 #presentation h2 {
@@ -251,12 +252,12 @@ a.social-btn {
 #presentation hr {
     border-color: var(--orange);
     width: 70px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 #tiramisu-img {
-    width: 50%;
-    margin: 10px auto;
+    width: 300px;
+    margin: 20px auto;
 }
 
 .pres-content {
